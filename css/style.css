@@ -1,4 +1,50 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+  display: block;
+}
+
+.emphasis {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+div {
+  margin: 20px auto;
+  width: 100%;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: left;
+  position: absolute;
+  padding: 2%;
+}
+
+/* code added to create two-column design */
+@media screen and (min-width: 575px){
+   .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/* code added to create four-column design */
+@media screen and (min-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 25%;
+  }
 }
