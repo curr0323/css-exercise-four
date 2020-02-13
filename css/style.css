@@ -2,38 +2,57 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+div {
+  display: inline-block;
 }
 
 body {
   background-color: #dadada;
-  display: block;
 }
 
 .container {
   margin: 0 auto;
-}
-
-.preview {
-  margin: 1%;
   width: 100%;
 }
 
 h1 {
+  margin: 30px 0;
   font-family: sans-serif;
-  font-size: 1.2em;
-  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: .2em;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.preview {
   width: 100%;
+  margin: 2em 0;
+  overflow: hidden;
+  height: 300px;
+  background-size: cover;
+  background-position: left;
 }
 
 h2 {
   font-size: 1.2em;
+  padding: 10%;
   text-align: left;
-  position: absolute;
-  padding: 2%;
+}
+
+.baku {
+  background-image: url(../images/baku.jpg);
+}
+
+.london {
+  background-image: url(../images/london.png);
+ }
+
+.rome {
+  background-image: url(../images/rome.jpg);
+}
+
+.madrid{
+  background-image: url(../images/madrid.jpg);
 }
 
 /* code added to create two-column design */
