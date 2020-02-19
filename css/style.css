@@ -59,14 +59,14 @@ h2 {
 @media screen and (min-width: 575px){
    .preview {
     margin: 1%;
-    width: 48%;
+    width: 45%;
   }
 }
 
 /* code added to create four-column design */
 @media screen and (min-width: 991px){
-   .preview {
+    .preview {
     margin: 1%;
-    width: 25%;
+    width: 22%;
   }
 }
